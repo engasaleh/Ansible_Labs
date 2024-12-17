@@ -16,3 +16,13 @@
         path: /opt/music/story.txt
         regexp: 'Ansible'
         replace: 'Kodekloud'
+
+
+# Write a playbook called replace.yml under /home/bob/playbooks/ directory on student-node host, an inventory file called inventory is already present under /home/bob/playbooks directory. Perform below given tasks using this playbook:
+
+
+
+# 1. We have a file called /opt/music/blog.txt on node01. Using Ansible replace module replace string Kodekloud with Ansible in that file.
+
+
+# 2. We have a file called /opt/music/story.txt on node02. Using Ansible replace module replace the string Ansible with Kodekloud in that file
