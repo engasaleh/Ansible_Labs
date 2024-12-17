@@ -1,0 +1,3 @@
+Using Ansible galaxy, install an Ansible role called geerlingguy.nodejs under /home/bob/playbooks/roles directory.
+
+ansible-galaxy install geerlingguy.nodejs -p /home/bob/playbooks/roles
